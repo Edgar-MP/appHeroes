@@ -14,6 +14,7 @@ import { HeroesComponent } from './components/heroes/heroes.component';
 
 // Servicios
 import { HeroService } from './services/hero.service';
+import { BuscadorComponent } from './components/buscador/buscador.component';
 
 
 @NgModule({
@@ -24,6 +25,7 @@ import { HeroService } from './services/hero.service';
     AboutComponent,
     HeroesComponent,
     HeroeComponent,
+    BuscadorComponent,
   ],
   imports: [
     BrowserModule,
